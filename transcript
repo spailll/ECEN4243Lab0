@@ -1,0 +1,708 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do FSM.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 15:40:58 on Jan 26,2024
+# vlog -reportprogress 300 FSM.sv FSM_tb.sv 
+# -- Compiling module FSM
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 15:40:58 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 15:40:58 on Jan 26,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM(fast)".
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.FSM(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Error: invalid command name "s#"
+# Error in macro ./regfile.do line 1
+# invalid command name "s#"
+#     while executing
+# "s# Copyright 1991-2007 Mentor Graphics Corporation"
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:08:55 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Error: (vlog-13069) regfile.sv(17): near "end": syntax error, unexpected end.
+# -- Compiling module stimulus
+# ** Error: regfile_tb.sv(22): (vlog-2730) Undefined variable: 'clock'.
+# ** Error: regfile_tb.sv(44): (vlog-2730) Undefined variable: 'reset_b'.
+# ** Error: regfile_tb.sv(46): (vlog-2730) Undefined variable: 'In'.
+# End time: 16:08:56 on Jan 26,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: C:/modeltech64_2021.3/win64/vlog failed.
+# Error in macro ./regfile.do line 30
+# C:/modeltech64_2021.3/win64/vlog failed.
+#     while executing
+# "vlog regfile.sv regfile_tb.sv"
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:16:02 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Error: (vlog-13069) regfile.sv(17): near "end": syntax error, unexpected end.
+# -- Compiling module stimulus
+# ** Error: regfile_tb.sv(22): (vlog-2730) Undefined variable: 'clock'.
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# End time: 16:16:02 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: C:/modeltech64_2021.3/win64/vlog failed.
+# Error in macro ./regfile.do line 30
+# C:/modeltech64_2021.3/win64/vlog failed.
+#     while executing
+# "vlog regfile.sv regfile_tb.sv"
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:16:28 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Error: (vlog-13069) regfile.sv(17): near "end": syntax error, unexpected end.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# End time: 16:16:28 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/modeltech64_2021.3/win64/vlog failed.
+# Error in macro ./regfile.do line 30
+# C:/modeltech64_2021.3/win64/vlog failed.
+#     while executing
+# "vlog regfile.sv regfile_tb.sv"
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:16:49 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Error: (vlog-13069) regfile.sv(17): near "end": syntax error, unexpected end.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# End time: 16:16:49 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/modeltech64_2021.3/win64/vlog failed.
+# Error in macro ./regfile.do line 30
+# C:/modeltech64_2021.3/win64/vlog failed.
+#     while executing
+# "vlog regfile.sv regfile_tb.sv"
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:19:03 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:19:03 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:19:05 on Jan 26,2024, Elapsed time: 0:38:07
+# Errors: 5, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:19:05 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:22:57 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:22:57 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:22:59 on Jan 26,2024, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:22:59 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:25:20 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(59): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(64): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(69): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:25:20 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 16:25:21 on Jan 26,2024, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:25:21 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# Causality operation skipped due to absence of debug database file
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:34:14 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Warning: regfile.sv(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile.sv(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(59): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(64): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(69): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(74): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:34:15 on Jan 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 8
+# End time: 16:34:16 on Jan 26,2024, Elapsed time: 0:08:55
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:34:16 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:43:18 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Warning: regfile.sv(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile.sv(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(59): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(64): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(69): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(74): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:43:18 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# End time: 16:43:19 on Jan 26,2024, Elapsed time: 0:09:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:43:19 on Jan 26,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:44:05 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Warning: regfile.sv(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile.sv(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:44:05 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 16:44:07 on Jan 26,2024, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:44:07 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:44:36 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Warning: regfile.sv(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile.sv(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:44:36 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 16:44:37 on Jan 26,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:44:37 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:45:05 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# ** Warning: regfile.sv(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile.sv(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:45:05 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 16:45:07 on Jan 26,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:45:07 on Jan 26,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:45:56 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:45:56 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:45:57 on Jan 26,2024, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:45:57 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:46:40 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# ** Warning: regfile_tb.sv(49): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: regfile_tb.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:46:40 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 16:46:42 on Jan 26,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:46:42 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:49:00 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:49:00 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:49:01 on Jan 26,2024, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:49:01 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:50:34 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:50:34 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:50:36 on Jan 26,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:50:36 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:52:44 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:52:44 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:52:45 on Jan 26,2024, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:52:45 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:53:14 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:53:14 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:53:16 on Jan 26,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:53:16 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:54:04 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:54:04 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:54:05 on Jan 26,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:54:05 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:55:35 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:55:35 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:55:36 on Jan 26,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:55:36 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 16:59:42 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:59:43 on Jan 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:59:44 on Jan 26,2024, Elapsed time: 0:04:08
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:59:44 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:02:51 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:02:51 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:02:53 on Jan 26,2024, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:02:53 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:03:55 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:03:55 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:03:56 on Jan 26,2024, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:03:56 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do FSM.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:05:41 on Jan 26,2024
+# vlog -reportprogress 300 FSM.sv FSM_tb.sv 
+# -- Compiling module FSM
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:05:41 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:05:42 on Jan 26,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:05:42 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM(fast)".
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.FSM(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:05:55 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:05:55 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:05:56 on Jan 26,2024, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:05:56 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:06:15 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:06:15 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:06:17 on Jan 26,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:06:17 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+do regfile.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is bsailor@CEAT-ENDV350-06.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 17:07:10 on Jan 26,2024
+# vlog -reportprogress 300 regfile.sv regfile_tb.sv 
+# -- Compiling module regfile
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 17:07:10 on Jan 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:07:11 on Jan 26,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 17:07:11 on Jan 26,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.regfile(fast)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
